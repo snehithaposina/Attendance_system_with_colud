@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apple Shopping App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Apple store</h1>
+    <div class="products">
+      <div class="product">
+        <img src="https://th.bing.com/th/id/OIP.T5hDlxGpJQlm_tQuQ54MFQHaHa?pid=ImgDet&rs=1" alt="Product 1">
+        <h2>IPHONE</h2>
+        <p>$19.99</p>
+        <button onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://th.bing.com/th/id/OIP.pww2rcKmceH-baGUtiZBDAHaE0?pid=ImgDet&rs=1" alt="Product 2">
+        <h2>MACBOOK</h2>
+        <p>$29.99</p>
+        <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://th.bing.com/th/id/OIP.KG-_PqnYeJjW21sIRgiSiwHaIN?pid=ImgDet&rs=1" alt="Product 1">
+        <h2>IWATCH</h2>
+        <p>$19.99</p>
+        <button onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://th.bing.com/th/id/OIP.Npm-xvzF7fufE8KET4_oAgHaFR?pid=ImgDet&rs=1" alt="Product 1">
+        <h2>IPOD</h2>
+        <p>$19.99</p>
+        <button onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://i5.walmartimages.com/asr/afc094e5-e54a-46cb-85c7-340cdc2072f3_1.2e06c2ce9bc88405162932a983e79e42.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff" alt="Product 1">
+        <h2>AIR PODS</h2>
+        <p>$19.99</p>
+        <button onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://th.bing.com/th/id/OIP.CiIog2Ouk4C-KrSqfcE2mAHaGH?pid=ImgDet&rs=1" alt="Product 1">
+        <h2>POWERBANK</h2>
+        <p>$19.99</p>
+        <button onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
+      </div>
+      <!-- Add more product divs here -->
+    </div>
+    <div class="cart">
+      <h2>Shopping Cart</h2>
+      <ul id="cartItems"></ul>
+      <p>Total: <span id="totalPrice">$0.00</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
